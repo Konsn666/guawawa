@@ -21,6 +21,25 @@ Icon: file:///Library/PreferenceBundles/BigBangEvPrefs.bundle/icon@2x.png
 Name: BigBangEv
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: github.io.GuaWaWa.swipeextenderx
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com> <瓜娃娃>
+Installed-Size: 644
+Depends: firmware (>= 12.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/github.io.GuaWaWa.swipeextenderx_1.5.1_iphoneos-arm.deb
+Size: 86760
+MD5sum: ce60884dd19865cad5b008f7f9473684
+SHA1: 7281b454a3a99ffd96a12b1a0af5af067ed921a8
+SHA256: 90316483898598e5eea5dff1b7b59f69f838a97019a8546637bc118e86a580aa
+Section: 辅助增强
+Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: qwertyuiop1379 <support@qwertyuiop1379.com> <瓜娃娃>
+Depiction: https://chariz.com/buy/swipeextenderx
+Icon: https://cdn.chariz.cloud/icon/swipeextenderx/icon@3x.png
+Name: SwipeExtenderX
+
 Package: github.io.GuaWaWa.touchflow
 Version: 1.0.6
 Architecture: iphoneos-arm
