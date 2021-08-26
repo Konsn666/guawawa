@@ -1,3 +1,23 @@
+Package: github.io.GuaWaWa.miyou
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com> <瓜娃娃>
+Installed-Size: 30868
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
+Filename: debs/github.io.GuaWaWa.miyou_1.5_iphoneos-arm.deb
+Size: 10930868
+MD5sum: 113626b3bcc986a3a4bf819733d93ba5
+SHA1: abc92c7151297619d9b485de2238bed7e4ece1f7
+SHA256: f7c77c2433cc17105b2b01dfe65a47072d354e2f7351b44b4dea2fd11b9aac62
+Section: WeChat
+Description: The best tweak for the YouTube app
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com> <瓜娃娃>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyou
+Icon: /Users/macos/Desktop/guawawa/depictions/github.io.GuaWaWa.MiYou/screenshots/1.png
+Name: uYou
+
 Package: github.io.GuaWaWa.touchflow
 Version: 1.0.6
 Architecture: iphoneos-arm
