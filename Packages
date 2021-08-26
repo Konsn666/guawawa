@@ -1,3 +1,26 @@
+Package: github.io.GuaWaWa.bigbangev
+Version: 5.3.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 6512
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap
+Conflicts: fun.yfyf.zbigbangevsupport
+Filename: debs/github.io.GuaWaWa.bigbangev_5.3.0_iphoneos-arm.deb
+Size: 1380596
+MD5sum: 405a7d6c640a633a93aecfc8c13967ca
+SHA1: 12755236bc0c965d5b3cc9391b79d1a6aac0c45d
+SHA256: f181ab6e8ed377bddaf485e4be70544f0ba2795cb4390ecef3dfba0cebab4857
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bigbangevDp
+Description: A simple BigBang tweak from EVAN!
+Tag: purpose::extension
+Author: EVAN <215288968@qq.com> <瓜娃娃>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bigbangevDp
+Dev: yfyf
+Icon: file:///Library/PreferenceBundles/BigBangEvPrefs.bundle/icon@2x.png
+Name: BigBangEv
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: github.io.GuaWaWa.touchflow
 Version: 1.0.6
 Architecture: iphoneos-arm
