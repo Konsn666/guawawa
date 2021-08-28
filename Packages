@@ -19,6 +19,25 @@ Icon2: 12.png
 Name: Snapper 2智能截图
 Sponsor: Ai-小苹果
 
+Package: com.ios.wechat
+Version: 1.0.9-2
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.ios.wechat_1.0.9-2_iphoneos-arm.deb
+Size: 3489636
+MD5sum: 9936dac155455525ecb89a6a211c7922
+SHA1: dbdc5121b4617f32b9a157c3e3bbf83344943736
+SHA256: c19c09dc354699fb7ac290ce05c38333208b4d5e156f9a4ed62a0b564004b2eb
+Section: Jan WeChat
+Priority: optional
+Homepage: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
+Description: 购买微信插件授权请联系微信ID-8987
+Author: Jan <瓜娃娃>
+Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
+Icon: https://konsn666.github.io/guawawa/DebIcon.png
+Name: WeChat
+
 Package: github.io.GuaWaWa.bigbangev
 Version: 5.3.0
 Architecture: iphoneos-arm
@@ -103,22 +122,4 @@ Author: MiRO <tweaks_support@miro92.com> <瓜娃娃>
 Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyou
 Icon: /Users/macos/Desktop/guawawa/depictions/github.io.GuaWaWa.MiYou/screenshots/1.png
 Name: uYou
-
-Package: github.io.GuaWaWa.wechat
-Version: 1.0.9-2
-Architecture: iphoneos-arm
-Maintainer: Jan<237523005@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/github.io.GuaWaWa.wechat_1.0.9-2_iphoneos-arm.deb
-Size: 3489600
-MD5sum: 418604872defe3b5ebe516319e2363a8
-SHA1: e763199a515b5aa923813254aca976a26654d1b2
-SHA256: b716496cab531a4e6df0d322c362e09b305f2bd9c2d069f0adc5f0a32167bee9
-Section: Jan WeChat
-Priority: optional
-Description: 微信插件
-Author: Jan <瓜娃娃>
-Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
-Icon: https://konsn666.github.io/guawawa/DebIcon.png
-Name: WeChat
 
