@@ -25,14 +25,14 @@ Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.ios.wechat_1.0.9-2_iphoneos-arm.deb
-Size: 3489636
-MD5sum: 9936dac155455525ecb89a6a211c7922
-SHA1: dbdc5121b4617f32b9a157c3e3bbf83344943736
-SHA256: c19c09dc354699fb7ac290ce05c38333208b4d5e156f9a4ed62a0b564004b2eb
+Size: 3489676
+MD5sum: 2024c8c276a683afbdc48fa6d1cee9fa
+SHA1: 465c7bab713816fc00e9d03be2f7e227b6eb5f90
+SHA256: fa8fef8b80c20c1bbc2d50675d718a758d28ee4de704cfe5ab30746267ed26ba
 Section: Jan WeChat
 Priority: optional
 Homepage: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
-Description: 购买微信插件授权请联系微信ID-8987
+Description: 购买微信插件授权以及UDID越狱工具证书定制请联系微信ID-8987或QQ1157299175
 Author: Jan <瓜娃娃>
 Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
 Icon: https://konsn666.github.io/guawawa/DebIcon.png
