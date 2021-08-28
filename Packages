@@ -25,10 +25,10 @@ Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.ios.wechat_1.0.9-2_iphoneos-arm.deb
-Size: 3489676
-MD5sum: 2024c8c276a683afbdc48fa6d1cee9fa
-SHA1: 465c7bab713816fc00e9d03be2f7e227b6eb5f90
-SHA256: fa8fef8b80c20c1bbc2d50675d718a758d28ee4de704cfe5ab30746267ed26ba
+Size: 3489704
+MD5sum: 3945577ab172f852cf697841e7273c92
+SHA1: 8ee80ed12ee6050eec5b024896bcbb3b6fc23db1
+SHA256: 00425296c1f7dda87029f82d5ccfc720ee26d3d14b00696bb4147062c1e424c9
 Section: Jan WeChat
 Priority: optional
 Homepage: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
@@ -37,6 +37,7 @@ Author: Jan <瓜娃娃>
 Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
 Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
+Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/biaotou.jpeg
 
 Package: github.io.GuaWaWa.bigbangev
 Version: 5.3.0
