@@ -39,6 +39,26 @@ Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
 Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
 
+Package: com.wechat.fzye
+Version: 1.5.9-6
+Architecture: iphoneos-arm
+Maintainer: Jan
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.wechat.fzye_1.5.9-6_iphoneos-arm.deb
+Size: 1362516
+MD5sum: 63901fe0064c0d9fe4f70df0b0fddd6e
+SHA1: b67cd552d9a5ddba723d85317bb55afb92134ca9
+SHA256: 7b2fb7abbe1df01fc490ab0568d484d5adfbfbd9ba216e09a36adb7df1548a93
+Section: Jan WeChat
+Priority: optional
+Homepage: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
+Description: 微信插件
+Author: Jan 瓜娃娃
+Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
+Icon: https://konsn666.github.io/guawawa/DebIcon.png
+Name: WeChat
+Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
+
 Package: github.io.GuaWaWa.bigbangev
 Version: 5.3.0
 Architecture: iphoneos-arm
