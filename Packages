@@ -44,11 +44,11 @@ Installed-Size: 1840
 Depends: mobilesubstrate, firmware (>= 12.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
 Filename: debs/com.cydiabc.snapper2_2.5.12_iphoneos-arm.deb
-Size: 423348
-MD5sum: 68993b62f15647eb903bc0d4382f8fb3
-SHA1: 729500abf2b9a2afdf2f44ae3e64f6b03b63082d
-SHA256: 805f7f2fe2e3b507cdabc403944052b85c340c15f65c2316fc698768b1621cee
-Section: 系统
+Size: 423756
+MD5sum: dd8165a74162a317449976dcb71df517
+SHA1: fa14cd35f2f1c71d941cebc88f310309f2ec85fc
+SHA256: 72c44fea8642d0ad1796c77e9b0bd7d08e2d83f809d8b4002dec1237fba7a32d
+Section: Tweaks
 Description: 屏幕截图增强 自定义截图区域
 A12: 1
 Author: Jonathan Winger-lang
@@ -105,11 +105,11 @@ Installed-Size: 30868
 Depends: firmware (>= 13.0), mobilesubstrate
 Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
 Filename: debs/github.io.GuaWaWa.uYou_1.5_iphoneos-arm.deb
-Size: 10930864
-MD5sum: 1921241751b459b22316262544456d90
-SHA1: b85d26b75e01709eaace5a5cec048916cbe095c1
-SHA256: 0c208c048a1cf1e0927ce65209a3b521ce9c527dd29ffe01ace9db22795bceaf
-Section: YouTube
+Size: 10930872
+MD5sum: a4acfdedd45f33317392241342b856d2
+SHA1: 36b99b7e51b726df2e089d388f30f41d4d1a5a6c
+SHA256: c1f7ce5f5d544b43765275907f352d757764769d8dd090604d80c18fe1891445
+Section: Tweaks
 Description: The best tweak for the YouTube app
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Author: MiRO <tweaks_support@miro92.com> <瓜娃娃>
