@@ -75,7 +75,27 @@ Author: Jan <瓜娃娃>
 Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
 Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
-Sileodepiction：https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
+Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
+
+Package: com.miro.uyou
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 30904
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
+Filename: debs/com.miro.uyou_1.7_iphoneos-arm.deb
+Size: 10940588
+MD5sum: cccd68459581213e4487e94c77e14bb1
+SHA1: 210e33ab6bb528535b4dd80ef9e82aca4204f974
+SHA256: c21c6941e59febcd0be4ed1395ce5eb28402e08cae312d198c7d10073e8871b0
+Section: Tweaks
+Description: The best tweak for the YouTube app
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyou
+Icon: file:////Library/Application Support/uYouBundle.bundle/icon_clipped.png
+Name: uYou
 
 Package: com.wechat.fzye
 Version: 1.5.9-6
@@ -95,27 +115,7 @@ Author: Jan 瓜娃娃
 Depiction: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
 Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
-Sileodepiction：https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
-
-Package: github.io.GuaWaWa.uYou
-Version: 1.5
-Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com> <瓜娃娃>
-Installed-Size: 30868
-Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
-Filename: debs/github.io.GuaWaWa.uYou_1.5_iphoneos-arm.deb
-Size: 10930872
-MD5sum: a4acfdedd45f33317392241342b856d2
-SHA1: 36b99b7e51b726df2e089d388f30f41d4d1a5a6c
-SHA256: c1f7ce5f5d544b43765275907f352d757764769d8dd090604d80c18fe1891445
-Section: Tweaks
-Description: The best tweak for the YouTube app
-Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com> <瓜娃娃>
-Depiction: https://miro92.com/repo/depictions/?p=com.miro.uyou
-Icon: /Users/macos/Desktop/guawawa/depictions/github.io.GuaWaWa.MiYou/screenshots/1.png
-Name: uYou
+Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
 
 Package: netskao.szrmbjailbreakedbypass
 Version: 1.1-1
