@@ -57,16 +57,117 @@ Icon2: 12.png
 Name: Snapper 2智能截图
 Sponsor: Ai-小苹果
 
+Package: com.github.io.GuaWaWa
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Ai-瓜娃娃™
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.github.io.GuaWaWa_1.1-1_iphoneos-arm.deb
+Size: 6296
+MD5sum: b15de44f096b1aaaf16b51fcbd3f697c
+SHA1: d6c91f46303da808f62abf8d1eca41cb58f1613c
+SHA256: 5062493381dc02ed2564ec0bf26b9e70dd7c835a34aedddfdd92957ce346c9c5
+Section: Tweaks
+Description: Filza破解全功能插件，此补丁搭配正版Filza使用，破解版Filza请勿安装此补丁  亲测iPhone 12 Pro Max 14.3兼容
+A12: 1
+Author: Ai-瓜娃娃
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: Filza File 文件管理器【破解补丁】
+Sponsor: Ai-瓜娃娃™
+
+Package: com.github.io.GuaWaWa.crane
+Version: 1.1.4-2
+Architecture: iphoneos-arm
+Maintainer: opa334 瓜娃娃
+Installed-Size: 2908
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.altlist (>= 1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/com.github.io.GuaWaWa.crane_1.1.4-2_iphoneos-arm.deb
+Size: 388736
+MD5sum: df0acd2e4926689eafe65387cdf35a17
+SHA1: 6dc3867473c105ac20f99bd6a1f9f7e29dbcaedc
+SHA256: 4fb3d80238990d816c28dd2893b6ac36808d5b2fed580ed205eae1e18a9042c9
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334 瓜娃娃
+Name: Crane-多功能容器 亲测 iPhone 12 Pro Max 14.3兼容
+
+Package: com.github.io.GuaWaWa.httpcatcher
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Ai-瓜娃娃™
+Installed-Size: 400
+Depends: mobilesubstrate
+Filename: debs/com.github.io.GuaWaWa.httpcatcher_1.1-1_iphoneos-arm.deb
+Size: 72216
+MD5sum: 9a7c33e814af4712e3adf3fd9391b13e
+SHA1: 8f1bffa901b3b3dd54362e2a7621a68e9fffd635
+SHA256: 6311f2797576e385a6cc84621ba3643cbad6f129e40342e6b3ad76470ce184cd
+Section: Tweaks
+Description: HTTPCatcher解锁高级版功能，兼容版本2.0.2，如失效，公众号反馈！亲测iPhone 12 Pro Max 14.3 2.8.0兼容
+A12: 1
+Author: Ai-瓜娃娃
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 1.png
+Name: HttpCatcher高级版
+Sponsor: Ai-瓜娃娃™
+
+Package: com.github.io.GuaWaWa.icleanerprocrack
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Ai-瓜娃娃™
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.github.io.GuaWaWa.icleanerprocrack_1.1-1_iphoneos-arm.deb
+Size: 9372
+MD5sum: 77301b7ead993e98713d50bf1a0344a0
+SHA1: 037c66f9798d9edd4337b96c98ed1cc7dc12064c
+SHA256: 8464b1fbabcc84937f79c6887f28bcb6deebc4de4782293f784dd64ab71d5a28
+Section: Tweaks
+Description: iCleaner Pro破解全功能插件，此补丁搭配正版iCleaner Pro使用，破解版iCleaner Pro请勿安装此补丁   亲测iPhone 12 Pro Max 14.3兼容
+A12: 1
+Author: Ai-瓜娃娃
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: iCleanerPro系统清理【破解补丁】
+Sponsor: Ai-瓜娃娃™
+
+Package: com.github.io.GuaWaWa.magsafecontroller
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Tomasz Poliszuk 瓜娃娃
+Installed-Size: 414
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.github.io.GuaWaWa.magsafecontroller_1.0.3_iphoneos-arm.deb
+Size: 92208
+MD5sum: 5d8652a4993625421f801ed1ba204ac1
+SHA1: 2715d7be4205a816cfcffb31936bdce2ab5b4fa2
+SHA256: 1e3fcff3c860891f208300f370bf296741e1474f78717ea595c85f395944d921
+Section: Tweaks
+Description: iPhone充电视图 ，具体效果预览截图 亲测  iPhone 12 Pro Max 14.3兼容
+Tag: purpose::extension
+A12: 1
+Author: Tomasz Poliszuk 瓜娃娃
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: MagSafe Controller充电特效
+Sponsor: Tomasz Poliszuk 瓜娃娃
+
 Package: com.ios.wechat
-Version: 1.0.9-2
+Version: 1.0.9-9
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.ios.wechat_1.0.9-2_iphoneos-arm.deb
-Size: 3489700
-MD5sum: 1cb77b0f6fd46969056cc60b7b5af102
-SHA1: 8747a9850cd1f6f310fa9961fbb9f8ce61104463
-SHA256: a84e986eeea749eeb40d0c018c5d12a0b5c78b37772c58c772da1106ac1df624
+Filename: debs/com.ios.wechat_1.0.9-9_iphoneos-arm.deb
+Size: 873868
+MD5sum: 125f8bf0018beb7fba923377fe723732
+SHA1: 84db6fcc6648f6304112abd581c90ca51c9777ee
+SHA256: 5010c7482065c76b147f76baa5f2fa20b3fcaa84b935e9bb4fd115884c0edd6b
 Section: Jan WeChat
 Priority: optional
 Homepage: https://konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/WeChat.html
