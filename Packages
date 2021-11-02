@@ -16,6 +16,24 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: PullOver Pro Keyboard Fix「分屏键盘修复」
 Sponsor: 瓜娃娃<1157299175@qq.com>
 
+Package: cn.yttxcs.sileodpkgfix
+Version: 3.0.0
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Installed-Size: 6
+Depends: org.coolstar.sileo
+Filename: debs/Sileo-DPKG中断.deb
+Size: 996
+MD5sum: e85e8f9c695ca7e143795fef87e62c03
+SHA1: 11d48ee1e369f8f5800320312ad532392c9c04f7
+SHA256: a56372a590fc2590bb276eb7c000df82a88c65fa9c3ad749daa86bf458a345cb
+Section: 系统
+Description: dpkg修复,修复sileo安装某些插件导致dpkg中断问题,以及安装某些插件一直队列无法卸载问题
+Author: YT
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Name: DPKG-fix「修复SileoDPKG中断」
+Sponsor: 幺筒源<409774743@qq.com>
+
 Package: com.cydiabc.bankabcnojb
 Version: 1.1-2
 Architecture: iphoneos-arm
@@ -77,6 +95,52 @@ Icon2: 5.png
 Name: Filza File 文件管理器【破解补丁】
 Sponsor: Ai-瓜娃娃™
 
+Package: com.github.io.GuaWaWa
+Version: 3.8.2K
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 10820
+Depends: firmware (>= 6.0), mobilesubstrate, applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.xgpslite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.xgpspro, apt.tinyapps.location360pro, me.liuming.locationhelper, me.liuming.locationexpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
+Filename: debs/定位修改大师破解补丁.deb
+Size: 3040080
+MD5sum: ca14821c658168c23b563d68b7134290
+SHA1: 41467accaa2b14cadf96bc8d78ab4de96b124c7d
+SHA256: ed6b8e41c15aa6ad8821297f11081293ce244b5c58a0b64e48ef28ec78539cef
+Section: Tweaks
+Description: 定位修改大师，Fake GPS Location, 修改微信、朋友圈、微博、陌陌、Facebook、QQ空间、支付宝、Instagram等应用定位，玩游戏、企业钉钉打卡必备工具。360度全球虚拟定位到想要的任何地方。
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: suifeng <260298032@qq.com>
+Depiction: https://repo.lenglengyu.top/packageInfo/dwxgds.html
+Dev: suifeng
+Icon: file:///Applications/FakeGps.app/AppIcon29x29@2x.png
+Name: 定位修改大师破解版
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/dwxgdssileo
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.github.io.GuaWaWa
+Version: 3.8.8
+Architecture: iphoneos-arm
+Maintainer: 瓜娃娃 BigBoss <bigboss@thebigboss.org>
+Installed-Size: 12132
+Depends: firmware (>= 6.0), mobilesubstrate, applist (>= 1.5.14)
+Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.XGPSLite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro, me.liuming.LocationHelper, me.liuming.LocationExpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
+Filename: debs/定位修改大师.deb
+Size: 3337104
+MD5sum: 73a3e3a8baa9511d1642fc7292e17d8b
+SHA1: c1f42c57b620680cbab946e2554f201bf09ddf49
+SHA256: da4147ca5f6f5c09ed45a758c45325b7972d02478e41780dd551bca5bb5a6031
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakelocationDp
+Description: 定位修改大师，Fake GPS Location, 360度全球虚拟定位到想要的任何地方。
+Tag: purpose::extension
+Author: 瓜娃娃 suifeng <bestapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakelocationDp
+Dev: suifeng
+Icon: file:///Applications/FakeGps.app/AppIcon29x29@2x.png
+Name: 定位修改大师(Fake GPS)-模拟地理位置，虚拟地图天下任我行
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.github.io.GuaWaWa.crane
 Version: 1.1.4-2
 Architecture: iphoneos-arm
@@ -93,6 +157,23 @@ Section: Tweaks
 Description: Multiple containers for your applications!
 Author: opa334 瓜娃娃
 Name: Crane-多功能容器 亲测 iPhone 12 Pro Max 14.3兼容
+
+Package: com.github.io.GuaWaWa.crane
+Version: 1.1.4-2
+Architecture: iphoneos-arm
+Maintainer: opa334 瓜娃娃
+Installed-Size: 2908
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.altlist (>= 1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/Crane多功能容器.deb
+Size: 389036
+MD5sum: 331f59cec548792ab2eb559e16c0952d
+SHA1: d3a2387016a2f85deb1d70782f0af4ea564eb811
+SHA256: 1124c50dba33a01727deb59a0bb0e123d35eadf3c154bcb23d24674765781c65
+Section: Tweaks
+Description: Multiple containers for your applications! 亲测 iPhone 12 Pro Max 14.3兼容
+Author: opa334 瓜娃娃
+Name: Crane-多功能容器
 
 Package: com.github.io.GuaWaWa.httpcatcher
 Version: 1.1-1
