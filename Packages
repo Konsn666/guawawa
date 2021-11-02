@@ -141,6 +141,23 @@ Icon: file:///Applications/FakeGps.app/AppIcon29x29@2x.png
 Name: 定位修改大师(Fake GPS)-模拟地理位置，虚拟地图天下任我行
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.github.io.GuaWaWa
+Version: 6.4-1
+Architecture: iphoneos-arm
+Maintainer: 瓜娃娃 & xia0
+Installed-Size: 2540
+Depends: mobilesubstrate
+Filename: debs/*推荐 虚拟定位.deb
+Size: 971772
+MD5sum: 0c87de69e261bfd15cfdc859ff5d3ae4
+SHA1: 24b6cb04886d3d7eaeb3e8f99bca23d007e0eb5f
+SHA256: 881d19265fa0dc8d08f2f42b20e3a177e3ee221dd3ad27b2143313c94c71ae7d
+Section: Tweaks
+Description: 虚拟定位 亲测 iPhone 12 Pro Max 14.3可用 The Best Fake Location Tweak xia0Dev Edition
+Author: 瓜娃娃 & xia0 & Lakr
+Icon: file:///Library/PreferenceBundles/fakelocationpre.bundle/icon@2x.png
+Name: FakeLocationX 虚拟定位 *推荐使用
+
 Package: com.github.io.GuaWaWa.crane
 Version: 1.1.4-2
 Architecture: iphoneos-arm
