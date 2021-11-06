@@ -1,0 +1,13 @@
+{
+ "class": "FeaturedBannersView",
+ "itemSize": "{263, 148}",
+ "itemCornerRadius": 10,
+ "banners": [
+  {
+   "url": "https://konsn666.github.io/guawawa/Depictions/com.guawawa.xndw/biaotou/top.png",
+   "title": "FakeLocationX",
+   "package": "com.github.io.GuaWaWa.FakeLocationX",
+   "hideShadow": false
+  },
+ ]
+}
