@@ -316,6 +316,24 @@ Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
 Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
 
+Package: github.io.GuaWaWa.localiapheper
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: 瓜娃娃
+Installed-Size: 300
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/github.io.GuaWaWa.localiapheper_2.0_iphoneos-arm.deb
+Size: 44284
+MD5sum: c7b5d7b3cbeb376a6192f46b4bbbd9e1
+SHA1: e1cddce9cc1549f8ddde92e12b81eeee448716f5
+SHA256: b42910185e029d99074feb6df6cc67723223e81d5e93b791a238e119e6700f40
+Section: Tweaks
+Description: LocaliAPHeper 内购神器破解小助手破解部分软件的收费，弹窗付款点击取消即可  亲测iPhone 12 Pro Max 14.3兼容
+Author: 瓜娃娃
+Icon: https://yttxcs.com/image/icon/cn.yttxcs.localiapheper.png
+Name: LocaliAPHeper 「内购神器]  *推荐使用
+Sponsor: 瓜娃娃
+
 Package: netskao.szrmbjailbreakedbypass
 Version: 1.1-1
 Architecture: iphoneos-arm
