@@ -5,8 +5,8 @@
  "banners": [
   {
    "url": "https://konsn666.github.io/guawawa/Depictions/com.guawawa.xndw/biaotou/top.png/top.png",
-   "title": "FakeLocationX 虚拟定位 *推荐使用",
-   "package": "com.github.io.GuaWaWa",
+   "title": "FakeLocationX",
+   "package": "com.github.io.GuaWaWa.FakeLocationX",
    "hideShadow": false
   },
  ]
