@@ -146,13 +146,13 @@ Version: 6.4-1
 Architecture: iphoneos-arm
 Maintainer: 瓜娃娃
 Filename: debs/*推荐 虚拟定位.deb
-Size: 971628
-MD5sum: 18945b9bab43f1cf735d70f72e3de9bc
-SHA1: d57a2acead2cc4450eb98b2462f687c82f03ccd6
-SHA256: 7e3c324c92d514c63898f952256480925585c9dc7a2f5ff81983485a4388cadb
+Size: 971616
+MD5sum: dc3023902d305e7bd0ac15cedb0964d3
+SHA1: c2e2c838f71ad196bc5c29e8076e5933762fa624
+SHA256: 0fb4f4cd45d5d5c2ca2078f95eec617a93de8931cf4be496383cf4066e1e0b73
 Section: Tweaks
 Description: 虚拟定位
-Author: 瓜娃娃 & xia0 & Lakr
+Author: 瓜娃娃
 Icon: https://konsn666.github.io/guawawa/depictions/com.guawawa.xndw/biaotou/image.png
 Name: FakeLocationX 虚拟定位 *推荐使用
 Sileodepiction：https: //konsn666.github.io/guawawa/depictions/com.guawawa.xndw/biaotou/js.json
