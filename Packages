@@ -274,6 +274,25 @@ Icon2: 12.png
 Name: NiceBarX破解版
 Sponsor: 瓜娃娃
 
+Package: com.github.wifilist.io
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Itay
+Installed-Size: 1128
+Filename: debs/*推荐 Wi-Fi备忘录.deb
+Size: 905756
+MD5sum: 1eb8bd8daf53b0fb6a1085abf2810bbd
+SHA1: bb8b69e8c5843afb09df82389787b31ee9c8c29d
+SHA256: 1dac4b73c9413ea302e2063a66721ceeaa04ec455d7ae74038fb47ce93504a57
+Section: Tweaks
+Description: 记录连接过的WiFi密码与二维码共享WiFi密码，非常好用，效果预览截图 亲测 iPhone 12 Pro Max 14.3兼容
+A12: 1
+Author: 瓜娃娃
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: WiFi List密码备忘录  *推荐
+Sponsor: 瓜娃娃
+
 Package: com.ios.wechat
 Version: 1.0.9-9
 Architecture: iphoneos-arm
