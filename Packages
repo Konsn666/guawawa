@@ -34,6 +34,22 @@ Icon: file:///Applications/Cydia.app/Sections/System.png
 Name: DPKG-fix「修复SileoDPKG中断」
 Sponsor: 幺筒源<409774743@qq.com>
 
+Package: com.25mao.doutu
+Version: 3.0-1
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/懒猫斗图助手.deb
+Size: 902500
+MD5sum: 69f35e9cafda60070b1d42fdf8995bca
+SHA1: ad4a94a76c994ce293b0c0391a26e30730bef611
+SHA256: b6e3b11e4e3ec36053325eb4511210c1a7f1d3e29307b3bf8edf85ad199d07de
+Section: 懒猫
+Priority: optional
+Author: Mao 瓜娃娃
+Name: 微信斗图助手
+Sponsor: admin@25mao.com
+
 Package: com.cydiabc.bankabcnojb
 Version: 1.1-2
 Architecture: iphoneos-arm
