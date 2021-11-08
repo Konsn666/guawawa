@@ -369,6 +369,24 @@ Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
 Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
 
+Package: gettext-localizations
+Version: 2020.10.07
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6256
+Depends: libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Provides: com.linusyang.localeutf8 (= 99.9)
+Filename: debs/终端依赖.deb
+Size: 220204
+MD5sum: 736aa0d0340df8d42dc230e6f9bb5702
+SHA1: 464c3b38b62df53c0b3307bec9c17ae5722ee367
+SHA256: 690c068cfe56697caf5e87eb12dd5043b0c5fa5baa2f715b480660a1d4ce7e8d
+Section: 依赖
+Priority: important
+Description: Locale files necessary for command line tool translation. 终端依赖
+
 Package: github.io.GuaWaWa.localiapheper
 Version: 2.0
 Architecture: iphoneos-arm
@@ -402,4 +420,26 @@ Section: Tweaks
 Description: 数字人民币禁用越狱检测，支持最新1.3.38版本
 Author: 瓜娃娃
 Name: 数字人民币 Jailbreaked Bypass
+
+Package: ws.hbang.newterm2
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6664
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: debs/终端.deb
+Size: 2018844
+MD5sum: 8c95fdbbeada4dd9d54ed8efd5512736
+SHA1: 796e692dedeea9816d0fae2be7138cde5bdea947
+SHA256: 779b291a6891abfeeb64c56de02a5cf0f33764957b44af7ee5b8a6d733536c25
+Section: 系统
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm 2
+Support: https://hashbang.productions/support/
 
