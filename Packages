@@ -115,15 +115,15 @@ Package: com.github.io.GuaWaWa
 Version: 1.5.8.2
 Architecture: iphoneos-arm
 Maintainer: GuaWaWa
-Filename: debs/小鸡模拟器 ipa.deb
-Size: 62309084
-MD5sum: 9a6e2c60bfa397d7b3028f38739c1af1
-SHA1: cd194bd149392a9201858df752108599dd87f521
-SHA256: f79c5df1eea9afb8a4f1039e53cecb4bde0daa659e72dc1ef620aab098ba72d5
-Section: ipa
+Filename: debs/小鸡模拟器ipa.deb
+Size: 62309412
+MD5sum: f01dff0b6df4b74ae3832657da12d7e4
+SHA1: e0b9de793f845e6f9bdb0b4403e0527269729ea4
+SHA256: 9413d07329cb9b77014ea04cf23d97b251e49f4de3ae0cc41ff554411fc1a0a2
+Section: 简IPA
 Description: 小鸡模拟器
 Author: GuaWaWa
-Name: 小鸡模拟器
+Name: Chick-小鸡模拟器
 
 Package: com.github.io.GuaWaWa
 Version: 3.8.2K
