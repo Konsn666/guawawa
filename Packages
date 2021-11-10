@@ -126,6 +126,20 @@ Author: GuaWaWa
 Name: Chick-小鸡模拟器
 
 Package: com.github.io.GuaWaWa
+Version: 3.12.11
+Architecture: iphoneos-arm
+Maintainer: GuaWaWa
+Filename: debs/nPlayer Plus.deb
+Size: 29373864
+MD5sum: e9911830c669663e9bce99b0bb74fe95
+SHA1: 92ce082b6506664fe63ae6e86ee857457ae08de2
+SHA256: a72a719e4b31d5595dc3db34edb06e2cf907cb4facdddabda5108789d8656345
+Section: 软件
+Description: 万能播放器
+Author: GuaWaWa
+Name: nPlayer
+
+Package: com.github.io.GuaWaWa
 Version: 3.8.2K
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
