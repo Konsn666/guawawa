@@ -112,20 +112,6 @@ Name: Filza File 文件管理器【破解补丁】
 Sponsor: Ai-瓜娃娃™
 
 Package: com.github.io.GuaWaWa
-Version: 1.5.8.2
-Architecture: iphoneos-arm
-Maintainer: GuaWaWa
-Filename: debs/小鸡模拟器.deb
-Size: 62309412
-MD5sum: 4816b06d900f2bfad60252545a7405bb
-SHA1: ccb05f9ace2910621713fc942c20e4555fcea3ee
-SHA256: 6e69537c2d145321667ccd72a96c23dd2ddeccf5cbd84581c8e23f2fbbda5716
-Section: 软件
-Description: 小鸡模拟器
-Author: GuaWaWa
-Name: Chick-小鸡模拟器
-
-Package: com.github.io.GuaWaWa
 Version: 3.8.2K
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -170,6 +156,20 @@ Dev: suifeng
 Icon: file:///Applications/FakeGps.app/AppIcon29x29@2x.png
 Name: 定位修改大师(Fake GPS)-模拟地理位置，虚拟地图天下任我行
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.github.io.GuaWaWa
+Version: 4.3.2
+Architecture: iphoneos-arm
+Maintainer: GuaWaWa
+Filename: debs/轻松签.deb
+Size: 4028776
+MD5sum: 25b332ddc2e456b102ee08bbf9e3b87e
+SHA1: 08b8bc32ae7f8968e9a58a157109b903a20764a3
+SHA256: 68bc1e05bb749e2ceb15f801761ad1c70d3aea9ff738fa4f53cc7f7b5a337305
+Section: 软件
+Description: 签名及安装ipa
+Author: GuaWaWa
+Name: Esgin-轻松签
 
 Package: com.github.io.GuaWaWa
 Version: 5.21
