@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: 瓜娃娃 <1157299175@qq.com>
 Installed-Size: 333
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.yttxcs.pulloverproapappview_1.1_iphoneos-arm .deb
+Filename: ./debs/cn.yttxcs.pulloverproapappview_1.1_iphoneos-arm .deb
 Size: 25912
 MD5sum: 90fbc87a94ca873402693ba6ea0db6bf
 SHA1: 06776c194b902d8d83058c00b34629673c08c564
@@ -16,13 +16,30 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: PullOver Pro Keyboard Fix「分屏键盘修复」
 Sponsor: 瓜娃娃<1157299175@qq.com>
 
+Package: cn.yttxcs.qqmusicdesktoplyrics
+Version: 0.3.4
+Architecture: iphoneos-arm
+Maintainer: 他是个疯子 <409774743@qq.com>
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), preferenceloader
+Filename: ./debs/cn.yttxcs.qqmusicdesktoplyrics_0.3.4_iphoneos-arm.deb
+Size: 559044
+MD5sum: e0f1a001e75a3659a45bc050b42825d4
+SHA1: e5facf87e82a12827585c8bcb705d788566d36b7
+SHA256: 57f5f88c34faac12a668eaeee7ff24f2761fe1991c2d7e39d1aa58c41d5db9a2
+Section: 插件
+Description: show lyrics anywhere 国区支持企鹅、网易、酷狗家族、咪咕、酷我、虾米(含各自ipad版)。外区支持spotify。
+Author: Brend0n
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: DesktopLyrics 「桌面歌词」
+Sponsor: 幺筒源<409774743@qq.com>
+
 Package: cn.yttxcs.sileodpkgfix
 Version: 3.0.0
 Architecture: iphoneos-arm
 Maintainer: 他是个疯子 <409774743@qq.com>
 Installed-Size: 6
 Depends: org.coolstar.sileo
-Filename: debs/Sileo-DPKG中断.deb
+Filename: ./debs/Sileo-DPKG中断.deb
 Size: 996
 MD5sum: e85e8f9c695ca7e143795fef87e62c03
 SHA1: 11d48ee1e369f8f5800320312ad532392c9c04f7
@@ -39,7 +56,7 @@ Version: 3.0-1
 Architecture: iphoneos-arm
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/懒猫斗图助手.deb
+Filename: ./debs/懒猫斗图助手.deb
 Size: 902500
 MD5sum: 69f35e9cafda60070b1d42fdf8995bca
 SHA1: ad4a94a76c994ce293b0c0391a26e30730bef611
@@ -50,13 +67,71 @@ Author: Mao 瓜娃娃
 Name: 微信斗图助手
 Sponsor: admin@25mao.com
 
+Package: com.25mao.doutu
+Version: 3.0-5
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.25mao.doutu_3.0-5_iphoneos-arm.deb
+Size: 968212
+MD5sum: 8b3752fd5b735eaa882a480c5e205ea3
+SHA1: 50a17cd383b066a941ed05e6c28562c448b23853
+SHA256: ba9b5572dab9b83a38f0bdda23beb015b2648bc371d49a897c902aab77687347
+Section: 微信插件
+Priority: optional
+Author: Mao
+Name: 斗图助手
+Sponsor: admin@25mao.com
+
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.8-4
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/AppStore++_0.9.8-4.deb
+Size: 1350426
+MD5sum: f7a54a04167c05d6ef4cb7388a32f1ef
+SHA1: 80c27b2385814fe50d8f80f1b491af065f94af72
+SHA256: ef68ab01673233154ad602d8b9095994a8d4d9e8b944f4fabcdef223013c3ee3
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
+Package: com.creaturecoding.touchflow
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 820
+Pre-Depends: firmware (>= 11.0), mobilesubstrate | com.ex.libsubstitute
+Depends: com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.creaturecoding.touchflow_1.0.6_iphoneos-arm.deb
+Size: 189504
+MD5sum: 07398d5167d7a1b71bb401c28d814445
+SHA1: 275632f0c2a161a3a911dc6683c8d218caa12aec
+SHA256: 3113b324661044d18097c1b12d4cc9dd9c2f6a2a873ea59af3676561de78e3ff
+Section: Tweaks
+Priority: optional
+Homepage: https://creaturecoding.com/
+Description: Show your touches on the screen
+ customizable tool to show your touches on the screen
+    allows for showing touch force on supported devices
+Tag: purpose::extension, compatible_min::iosiOS11
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=touchflow
+Name: TouchFlow
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=touchflow
+
 Package: com.cydiabc.bankabcnojb
 Version: 1.1-2
 Architecture: iphoneos-arm
 Maintainer: Ai-小苹果
 Installed-Size: 357
 Depends: firmware (>= 10.0), mobilesubstrate
-Filename: debs/com.cydiabc.bankabcnojb_1.1-2_iphoneos-arm .deb
+Filename: ./debs/com.cydiabc.bankabcnojb_1.1-2_iphoneos-arm .deb
 Size: 77576
 MD5sum: 7a52f8717004047f9094120778cf68bd
 SHA1: a21693a7efe1735455b1810ae2efd372a38b1cfb
@@ -77,7 +152,7 @@ Maintainer: Ai-小苹果
 Installed-Size: 1840
 Depends: mobilesubstrate, firmware (>= 12.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
-Filename: debs/com.cydiabc.snapper2_2.5.12_iphoneos-arm.deb
+Filename: ./debs/com.cydiabc.snapper2_2.5.12_iphoneos-arm.deb
 Size: 423756
 MD5sum: dd8165a74162a317449976dcb71df517
 SHA1: fa14cd35f2f1c71d941cebc88f310309f2ec85fc
@@ -97,7 +172,7 @@ Architecture: iphoneos-arm
 Maintainer: Ai-瓜娃娃™
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: debs/com.github.io.GuaWaWa_1.1-1_iphoneos-arm.deb
+Filename: ./debs/com.github.io.GuaWaWa_1.1-1_iphoneos-arm.deb
 Size: 6296
 MD5sum: b15de44f096b1aaaf16b51fcbd3f697c
 SHA1: d6c91f46303da808f62abf8d1eca41cb58f1613c
@@ -115,7 +190,7 @@ Package: com.github.io.GuaWaWa
 Version: 1.5.8.2
 Architecture: iphoneos-arm
 Maintainer: GuaWaWa
-Filename: debs/小鸡模拟器.deb
+Filename: ./debs/小鸡模拟器.deb
 Size: 62309412
 MD5sum: 4816b06d900f2bfad60252545a7405bb
 SHA1: ccb05f9ace2910621713fc942c20e4555fcea3ee
@@ -129,7 +204,7 @@ Package: com.github.io.GuaWaWa
 Version: 3.12.11
 Architecture: iphoneos-arm
 Maintainer: GuaWaWa
-Filename: debs/nPlayer Plus.deb
+Filename: ./debs/nPlayer Plus.deb
 Size: 29373864
 MD5sum: e9911830c669663e9bce99b0bb74fe95
 SHA1: 92ce082b6506664fe63ae6e86ee857457ae08de2
@@ -146,7 +221,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 10820
 Depends: firmware (>= 6.0), mobilesubstrate, applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
 Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.xgpslite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.xgpspro, apt.tinyapps.location360pro, me.liuming.locationhelper, me.liuming.locationexpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
-Filename: debs/定位修改大师破解补丁.deb
+Filename: ./debs/定位修改大师破解补丁.deb
 Size: 3040080
 MD5sum: ca14821c658168c23b563d68b7134290
 SHA1: 41467accaa2b14cadf96bc8d78ab4de96b124c7d
@@ -169,7 +244,7 @@ Maintainer: 瓜娃娃 BigBoss <bigboss@thebigboss.org>
 Installed-Size: 12132
 Depends: firmware (>= 6.0), mobilesubstrate, applist (>= 1.5.14)
 Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.XGPSLite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro, me.liuming.LocationHelper, me.liuming.LocationExpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
-Filename: debs/定位修改大师.deb
+Filename: ./debs/定位修改大师.deb
 Size: 3337104
 MD5sum: 73a3e3a8baa9511d1642fc7292e17d8b
 SHA1: c1f42c57b620680cbab946e2554f201bf09ddf49
@@ -189,7 +264,7 @@ Package: com.github.io.GuaWaWa
 Version: 4.3.2
 Architecture: iphoneos-arm
 Maintainer: GuaWaWa
-Filename: debs/轻松签.deb
+Filename: ./debs/轻松签.deb
 Size: 4028776
 MD5sum: 25b332ddc2e456b102ee08bbf9e3b87e
 SHA1: 08b8bc32ae7f8968e9a58a157109b903a20764a3
@@ -203,7 +278,7 @@ Package: com.github.io.GuaWaWa
 Version: 5.21
 Architecture: iphoneos-arm
 Maintainer: GuaWaWa
-Filename: debs/迅雷.deb
+Filename: ./debs/迅雷.deb
 Size: 26211368
 MD5sum: 5bfd0e9d2eeec1027b558e8f902d882a
 SHA1: c3f754c2220ef14baf193505a6eb4281a1153678
@@ -217,7 +292,7 @@ Package: com.github.io.GuaWaWa.FakeLocationX
 Version: 6.4-1
 Architecture: iphoneos-arm
 Maintainer: 瓜娃娃
-Filename: debs/*推荐 虚拟定位.deb
+Filename: ./debs/*推荐 虚拟定位.deb
 Size: 971616
 MD5sum: dc3023902d305e7bd0ac15cedb0964d3
 SHA1: c2e2c838f71ad196bc5c29e8076e5933762fa624
@@ -236,7 +311,7 @@ Maintainer: opa334 瓜娃娃
 Installed-Size: 2908
 Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.altlist (>= 1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
 Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
-Filename: debs/com.github.io.GuaWaWa.crane_1.1.4-2_iphoneos-arm.deb
+Filename: ./debs/com.github.io.GuaWaWa.crane_1.1.4-2_iphoneos-arm.deb
 Size: 388736
 MD5sum: df0acd2e4926689eafe65387cdf35a17
 SHA1: 6dc3867473c105ac20f99bd6a1f9f7e29dbcaedc
@@ -253,7 +328,7 @@ Maintainer: opa334 瓜娃娃
 Installed-Size: 2908
 Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.altlist (>= 1.0.5), com.rpetrich.rocketbootstrap, preferenceloader, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
 Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
-Filename: debs/Crane多功能容器.deb
+Filename: ./debs/Crane多功能容器.deb
 Size: 389036
 MD5sum: 331f59cec548792ab2eb559e16c0952d
 SHA1: d3a2387016a2f85deb1d70782f0af4ea564eb811
@@ -269,7 +344,7 @@ Architecture: iphoneos-arm
 Maintainer: Ai-瓜娃娃™
 Installed-Size: 400
 Depends: mobilesubstrate
-Filename: debs/com.github.io.GuaWaWa.httpcatcher_1.1-1_iphoneos-arm.deb
+Filename: ./debs/com.github.io.GuaWaWa.httpcatcher_1.1-1_iphoneos-arm.deb
 Size: 72216
 MD5sum: 9a7c33e814af4712e3adf3fd9391b13e
 SHA1: 8f1bffa901b3b3dd54362e2a7621a68e9fffd635
@@ -289,7 +364,7 @@ Architecture: iphoneos-arm
 Maintainer: Ai-瓜娃娃™
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: debs/com.github.io.GuaWaWa.icleanerprocrack_1.1-1_iphoneos-arm.deb
+Filename: ./debs/com.github.io.GuaWaWa.icleanerprocrack_1.1-1_iphoneos-arm.deb
 Size: 9372
 MD5sum: 77301b7ead993e98713d50bf1a0344a0
 SHA1: 037c66f9798d9edd4337b96c98ed1cc7dc12064c
@@ -312,7 +387,7 @@ Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Filename: debs/com.github.io.GuaWaWa.magsafecontroller_1.0.3_iphoneos-arm.deb
+Filename: ./debs/com.github.io.GuaWaWa.magsafecontroller_1.0.3_iphoneos-arm.deb
 Size: 92208
 MD5sum: 5d8652a4993625421f801ed1ba204ac1
 SHA1: 2715d7be4205a816cfcffb31936bdce2ab5b4fa2
@@ -332,7 +407,7 @@ Version: 2.0.5.2-1
 Architecture: iphoneos-arm
 Maintainer: 瓜娃娃
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Filename: debs/com.cydiabc.nicebarx_2.0.5.deb
+Filename: ./debs/com.cydiabc.nicebarx_2.0.5.deb
 Size: 1053268
 MD5sum: b4df4c86f7837f004930bc2c2cbf24d6
 SHA1: 491928bb3ea56a9debfcfeef13f3b171566c6d15
@@ -351,7 +426,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Itay
 Installed-Size: 1128
-Filename: debs/*推荐 Wi-Fi备忘录.deb
+Filename: ./debs/*推荐 Wi-Fi备忘录.deb
 Size: 905756
 MD5sum: 1eb8bd8daf53b0fb6a1085abf2810bbd
 SHA1: bb8b69e8c5843afb09df82389787b31ee9c8c29d
@@ -370,7 +445,7 @@ Version: 1.0.9-9
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.ios.wechat_1.0.9-9_iphoneos-arm.deb
+Filename: ./debs/com.ios.wechat_1.0.9-9_iphoneos-arm.deb
 Size: 873868
 MD5sum: 125f8bf0018beb7fba923377fe723732
 SHA1: 84db6fcc6648f6304112abd581c90ca51c9777ee
@@ -385,6 +460,58 @@ Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
 Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
 
+Package: com.ios.wechat
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.ios.wechat_1.1.5_iphoneos-arm.deb
+Size: 610344
+MD5sum: 8246025b178e16bdb1022c0c9c28f080
+SHA1: 312bfefe841f61f471b26529a1ea51ed3adf509c
+SHA256: 1870f6ffdcc833d824766d0354dfc6505db205fb3989df38d7a3cdc8eea88cda
+Section: 微信
+Priority: optional
+Author: Jan
+Icon: http://repo.ccydia.top/CydiaIcon.png
+Name: WeChat
+Sponsor: Jan<237523005@qq.com>
+
+Package: com.jontelang.snapper2.packix
+Version: 2.5.12
+Architecture: iphoneos-arm
+Maintainer: Jonathan Winger-lang
+Installed-Size: 1840
+Depends: mobilesubstrate, firmware (>= 12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debs/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
+Size: 423412
+MD5sum: 5010f7d52caa68e43c64fbbc69cc1abd
+SHA1: de39cb4a65bf24c5bff4a1fab34b517c3e4d505a
+SHA256: 3687e61f982bc6bd2897d722d4435ee9811e9ca272c220e72ba113f4184f335a
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 2
+
+Package: com.lenglengyu.ffbaidu
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.lenglengyu.ffbaidu_0.0.4_iphoneos-arm.deb
+Size: 6100
+MD5sum: 09147daa1be81a3561c298e014e0c5a1
+SHA1: 4104fcc04cef66901d3334c04b73df4800040850
+SHA256: edcd6148de5b95e140f6493e80cf33ad30f7cf9b76c10192199e80797933e755
+Section: Tweaks
+Description: 解决Safari浏览器跳转百度问题。
+Author: lenglengyu
+Depiction: https://apt.167025.cn/packageInfo/ffbaidu.html
+Name: 百度不跳转
+Sileodepiction: https://apt.167025.cn/packageInfo/ffbaidusileo
+
 Package: com.miro.uyou
 Version: 1.7
 Architecture: iphoneos-arm
@@ -392,7 +519,7 @@ Maintainer: MiRO <tweaks_support@miro92.com>
 Installed-Size: 30904
 Depends: firmware (>= 13.0), mobilesubstrate
 Conflicts: com.miro.easyyt, com.miro.ytnoshorts, com.ps.noytpremium, com.ps.youarethere
-Filename: debs/com.miro.uyou_1.7_iphoneos-arm.deb
+Filename: ./debs/com.miro.uyou_1.7_iphoneos-arm.deb
 Size: 10940588
 MD5sum: cccd68459581213e4487e94c77e14bb1
 SHA1: 210e33ab6bb528535b4dd80ef9e82aca4204f974
@@ -410,7 +537,7 @@ Version: 1.5.9-6
 Architecture: iphoneos-arm
 Maintainer: Jan
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.wechat.fzye_1.5.9-6_iphoneos-arm.deb
+Filename: ./debs/com.wechat.fzye_1.5.9-6_iphoneos-arm.deb
 Size: 1362584
 MD5sum: 2723b83e6467376d0aeadc0f107678a4
 SHA1: bff6425121d352417eabf2b0cc2b1fc22bfb0103
@@ -425,6 +552,24 @@ Icon: https://konsn666.github.io/guawawa/DebIcon.png
 Name: WeChat
 Sileodepiction：https: //konsn666.github.io/guawawa/depictions/github.io.GuaWaWa.WeChat/js.json
 
+Package: com.xybp888.magiciannojailbreak
+Version: 0.0.1-2253
+Architecture: iphoneos-arm
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 1060
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xybp888.magiciannojailbreak_0.0.1-2253_iphoneos-arm.deb
+Size: 297816
+MD5sum: a254b9ccb1723fd72945866400038924
+SHA1: 86a54763abb9daaa764c1a031f499b0f9a6480d8
+SHA256: e92a64a924b68481178780f7cbb1a0c24b50a0dd2b19a0d8092587e1b173c61f
+Section: Tweaks
+Description: 本插件仅供学习之用,不得用于商用,请于24小时内卸载删除,一切法律责任与本插件和作者无关
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/351
+Name: 魔术师
+Sileodepiction: https://apt.htv123.com/sileo/351
+
 Package: gettext-localizations
 Version: 2020.10.07
 Architecture: iphoneos-arm
@@ -434,7 +579,7 @@ Depends: libintl8 (>= 0.20.0)
 Conflicts: com.linusyang.localeutf8
 Replaces: com.linusyang.localeutf8
 Provides: com.linusyang.localeutf8 (= 99.9)
-Filename: debs/终端依赖.deb
+Filename: ./debs/终端依赖.deb
 Size: 220204
 MD5sum: 736aa0d0340df8d42dc230e6f9bb5702
 SHA1: 464c3b38b62df53c0b3307bec9c17ae5722ee367
@@ -449,7 +594,7 @@ Architecture: iphoneos-arm
 Maintainer: 瓜娃娃
 Installed-Size: 300
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/github.io.GuaWaWa.localiapheper_2.0_iphoneos-arm.deb
+Filename: ./debs/github.io.GuaWaWa.localiapheper_2.0_iphoneos-arm.deb
 Size: 44284
 MD5sum: c7b5d7b3cbeb376a6192f46b4bbbd9e1
 SHA1: e1cddce9cc1549f8ddde92e12b81eeee448716f5
@@ -467,7 +612,7 @@ Architecture: iphoneos-arm
 Maintainer: xybp888 瓜娃娃 <8657156@qq.com>
 Installed-Size: 612
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/魔术师 屏蔽.deb
+Filename: ./debs/魔术师 屏蔽.deb
 Size: 118460
 MD5sum: add83476ade80f7140e04cc056db63b1
 SHA1: e9b7c2fbe7b74ab30cf15504b4857e440074f2db
@@ -477,13 +622,144 @@ Description: 本插件仅供学习之用,请于24小时内卸载,一切法律责
 Author: xybp888 瓜娃娃 <8657156@qq.com>
 Name: 魔术师
 
+Package: ios.jan.voice
+Version: 1.4.6
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/ios.jan.voice_1.4.6_iphoneos-arm.deb
+Size: 610980
+MD5sum: f3e5bf3e0474d56bde14fd8146de42e7
+SHA1: c365656a296019ee4b2621359384527c90d03d9e
+SHA256: 0270061a3011f76333d41301f73307b02091995b08adeaf00e2330048a267ee8
+Section: 微信
+Priority: optional
+Author: Jan
+Icon: http://repo.ccydia.top/CydiaIcon.png
+Name: Voice
+Sponsor: Jan<237523005@qq.com>
+
+Package: jp.dcsyhi.zetsu
+Version: 1.3.0.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2228
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap, firmware (>= 14.0), com.lacertosusrepo.libdeusprefs (>= 1.0), libactivator
+Filename: ./debs/jp.dcsyhi.zetsu_1.3.0.1_iphoneos-arm.deb
+Size: 1613660
+MD5sum: 333483e4eaf83c8277f4d85e2046f26b
+SHA1: 6a17f0ea8ede711ef0a3595da1ee48b0fb66298e
+SHA256: 5de3c3be6e2d80efc0d2cce88331d707315ad51bd58b387bce33ded01fa1d355
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: netskao.alipayhooks
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 236
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/netskao.alipayhooks_1.1-2_iphoneos-arm.deb
+Size: 54504
+MD5sum: 739991544266ee48f23bd7d1e33effc4
+SHA1: 327f9bf1be7eade75df26fa6acfe219be5c38923
+SHA256: 4c6e38c3b0c406a75132afa75151686d004fca0cc3f833f413e2ce2e75dc15d7
+Section: Netskao-Tweaks
+Description: 支付宝去除底部理财和口碑或生活选项，去除底部红点显示等，理财是不可能理财的，只有收收钱勉强维持生活
+Author: Netskao
+Name: 支付宝 Hooks
+
+Package: netskao.appdata
+Version: 1.3.6-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1784
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/netskao.appdata_1.3.6-8_iphoneos-arm.deb
+Size: 492628
+MD5sum: 682e799be7f88ca6d6ee96e08aae75d5
+SHA1: 43094a95051e3e5022b2ec6ca034b35d38962c02
+SHA256: 41746c5b4b6007dfea9255800182d0c6c4aa78f0675b9825e9f2a8f4c5dfd671
+Section: Netskao-Tweaks
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Name: AppData
+
+Package: netskao.awemepurification
+Version: 2.5-3.6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1188
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/netskao.awemepurification_2.5-3.6_iphoneos-arm.deb
+Size: 317612
+MD5sum: 953ef30db8330c162d7090cb7240d48a
+SHA1: 309c21c224736fbf1f22268ebb69a555da86684e
+SHA256: f1e11aa21bc373d7fec1e91de9806df6f8099a945896cb3ade8d04684ce4983d
+Section: Netskao-Tweaks
+Description: 抖音净化！设置位于抖音-设置，仅支持19.8.0及以上版本抖音
+Author: Netskao
+Name: 抖音净化
+
+Package: netskao.bdwphooks
+Version: 1.1-6.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 352
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netskao.bdwphooks_1.1-6.1_iphoneos-arm.deb
+Size: 91052
+MD5sum: 695c5a311e5934eaa53a5f5448469f6b
+SHA1: 097a4093a6b1753a86d2d4770f4637faab6fc0cf
+SHA256: 128fa443382cf989f93d0def76aa90b8c41c7cddd8e9f5fe2d0159a316762d26
+Section: Netskao-Tweaks
+Description: 为百度网盘下载文件列表增加直接分享文件功能和快速在Filza中查看该文件功能，免去每次进入路径寻找文件的繁琐方式，使用方式:长按已下载文件即可。另外附加去除所有广告等，仅支持11.20.0及以上版本
+Author: Netskao
+Name: 百度网盘 Hooks
+
+Package: netskao.kwyycrack
+Version: 1.3-3.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 420
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/netskao.kwyycrack_1.3-3.1_iphoneos-arm.deb
+Size: 114588
+MD5sum: 7d6eff53d38d6d0d423312cbd5211b17
+SHA1: d908eb95728b82868a38b59f19373a4a00927b36
+SHA256: 6d2f90c18094c8dd5eb00ad5465e82354896618fa1e2e5a56a036d9007d4e151
+Section: Netskao-Cracks
+Description: 酷我音乐解锁所有歌曲听和缓存限制，解锁所有小说听和缓存限制，解锁音效和皮肤使用限制，解锁非大陆地区限制，去除启动广告，去除首页底部推荐列表，去除首页随机弹出的推广提示，去除播放页面正在直播，去除首页左侧设置中没啥用的功能，去除我的页面直播和小说推广和听点别的，去除评分提示，去除顶部随机出现的直播开播提示，去除本地/下载/最近播放/收藏中的推荐，去除底部曲库/直播/视频按钮，增加缓存歌曲导出(下载或本地页面，歌曲操作面板导出，支持自动解密kwm格式)，仅支持酷我音乐10.0.0及以上版本和仅支持酷我音乐纯净版1.0.1及以上版本
+Author: Netskao
+Name: 酷我音乐 Crack
+
+Package: netskao.qqpurification
+Version: 2.0-1.8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 848
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/netskao.qqpurification_2.0-1.8_iphoneos-arm.deb
+Size: 239880
+MD5sum: df6a3e78a3ecb0c75de208f5c1e28476
+SHA1: d07f8774b3c5e67037ccefa3f7f65014360c4e15
+SHA256: 50de55d47cd4371584ffe5d66bb8210c7bed41c467ecf4dc5aabf0db9d783d27
+Section: Netskao-Tweaks
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.88及以上版本
+Author: Netskao
+Name: QQ净化
+
 Package: netskao.szrmbjailbreakedbypass
 Version: 1.1-1
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 320
 Depends: mobilesubstrate
-Filename: debs/netskao.szrmbjailbreakedbypass_1.1-1_iphoneos-arm.deb
+Filename: ./debs/netskao.szrmbjailbreakedbypass_1.1-1_iphoneos-arm.deb
 Size: 78000
 MD5sum: b76a67f03fc400dc18ace125d312fed4
 SHA1: 4a83b985958ac4fd0a85fb8c3949814c0d21cd82
@@ -493,6 +769,38 @@ Description: 数字人民币禁用越狱检测，支持最新1.3.38版本
 Author: 瓜娃娃
 Name: 数字人民币 Jailbreaked Bypass
 
+Package: netskao.wechatpurification
+Version: 2.2-1.5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1652
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/netskao.wechatpurification_2.2-1.5_iphoneos-arm.deb
+Size: 467504
+MD5sum: 730d0f3f28b298a159421d2a24a10091
+SHA1: fb392b4bb00eb2c529e615f8be8e56c40ce5307c
+SHA256: 43fc07130887253ce0bd2f2c60918a5d391db4b1b0573409286ebe35d5ef226e
+Section: Netskao-Tweaks
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.18及以上版本，设置位于微信-设置
+Author: Netskao
+Name: 微信净化
+
+Package: netskao.wfnoads
+Version: 1.6-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 368
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/netskao.wfnoads_1.6-3_iphoneos-arm.deb
+Size: 104256
+MD5sum: fbddfaf7b9f820a6c7e984f21af6a43e
+SHA1: ed4e10b32b220f35c89c39296cb8fa9ec4912149
+SHA256: bb45c76f3371eaa9e6b6c1731395280fc9c528dfe5bbb34d2c8cffcb26095360
+Section: Netskao-NoAds
+Description: 威锋去除启动广告，去除贴列表插入广告，去除贴内下方广告横幅，去除我的页面广告横幅，仅支持6.8.5及以上版本
+Author: Netskao
+Name: 威锋 NoAds
+
 Package: ws.hbang.newterm2
 Version: 2.5
 Architecture: iphoneos-arm
@@ -501,7 +809,7 @@ Installed-Size: 6664
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: debs/终端.deb
+Filename: ./debs/终端.deb
 Size: 2018844
 MD5sum: 8c95fdbbeada4dd9d54ed8efd5512736
 SHA1: 796e692dedeea9816d0fae2be7138cde5bdea947
